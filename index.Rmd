@@ -5,13 +5,37 @@ output:
     toc: true
     toc_float: true
     theme: cerulean
+editor_options: 
+  chunk_output_type: console
 ---
 
 # This is SZ's awesome website
 
 ![](https://media.giphy.com/media/drXGoW1iudhKw/giphy.gif)
+ 
+## Here is a subsection
+
+And here is some additon text
+
+```{r}
+rnorm(10)
+```
+
+
+## Links to other websites
+
+Let's link to useful tools for 
+
+* [Google](https://www.google.com/)
+* [p8105](https://p8105.com)
+
+## locl images
 
 ![](images/ted.jpg)
+
+## link to page within the site
+
+[About me](website_template/about.html)
 
 <img src="images/ted.jpg" style="width:75%">
 
